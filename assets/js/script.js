@@ -75,10 +75,10 @@ $(document).ready(function() {
 
 
 // $(document).ready(function() {
-const heroSwiper = new Swiper('.hero-section .swiper', {
+const heroSwiper = new Swiper('.swiper-container', {
     // Optional parameters
     // direction: 'horizontal',
-    slidesPerView: 'auto',
+    slidesPerView: 2,
     spaceBetween: 10,
     loop: true,
     centeredSlides: true,

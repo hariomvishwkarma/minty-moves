@@ -138,3 +138,16 @@ hero section
         height: 17px;
     }
 }
+
+
+/* -----------------------------------
+Second section 
+----------------------------------- */
+
+.second-sec {
+    background-color: #FF4C38;
+}
+
+.second-sec h2 {
+    font-size: 45px;
+}
