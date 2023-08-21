@@ -24,13 +24,21 @@
     font-size: 12px;
 }
 
-.color-orange {
-    color: #FF4C38;
+.fs-10 {
+    font-size: 10px;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+.color-orange {
+    color: #FF4C38;
+}
+
+.color-gray {
+    color: #555;
 }
 
 .text-ellipsis {
@@ -40,6 +48,21 @@ a {
     text-overflow: ellipsis;
 }
 
+.highlight {
+    height: 4px;
+    border-radius: 6px;
+    background: #004E44;
+    width: 0;
+    position: absolute;
+    transition: all .5s ease-in-out;
+}
+
+@media screen and (max-width: 992px) {
+    .fs-12 {
+        font-size: 9px;
+    }
+}
+
 @media screen and (min-width: 767px) {
     section .container-xxl {
         padding-right: 60px !important;
@@ -47,19 +70,10 @@ a {
     }
 }
 
-.seventh-sec-sm-img img,
-.seventh-sec-img img,
-.hero-sec-sm-img-container-b img,
 .hero-sec-img-container img,
 .hero-sec-sm-img-container-a img,
-.second-sec-sm-img-container img,
 .second-sec-main-img img,
-.third-sec-sm-img-container img,
-.third-sec-main-img img,
-.fourth-section-img img,
-.fifth-sec-sm-img-a img,
-.fifth-sec-sm-img-b img,
-.fifth-sec-main-img img {
+.third-sec-main-img img {
     display: block;
     width: 100%;
     position: absolute;
@@ -150,4 +164,68 @@ Second section
 
 .second-sec h2 {
     font-size: 45px;
+}
+
+
+/* -----------------------------------
+third section 
+----------------------------------- */
+
+.third-sec .top-head ul li {
+    cursor: pointer;
+}
+
+.second-sec-main-img {
+    padding-top: 56.2%;
+    position: relative;
+    margin-right: 0%;
+}
+
+.second-sec-main-img img {
+    border-radius: 20px;
+}
+
+.third-sec-main-content h2 {
+    -webkit-line-clamp: 3;
+}
+
+.third-sec-main-img {
+    padding-top: 56.2%;
+    position: relative;
+}
+
+.third-sec-box-shad {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    .third-sec-main-content {
+        box-shadow: 0px 0px 10.390625px 0px rgba(0, 0, 0, 0.10);
+        background-color: white;
+        border-radius: 10px;
+        width: 41%;
+        top: 50%;
+        position: absolute;
+        right: 0;
+        transform: translateY(-50%);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .third-sec-main-content h2 {
+        font-size: 24px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .third-section .fs-12 {
+        font-size: 9px;
+    }
+    .third-sec-main-content h2 {
+        font-size: 20px !important;
+    }
+    .third-sec .top-head ul li {
+        font-size: 20px !important;
+    }
 }
