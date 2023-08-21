@@ -12,13 +12,6 @@
     font-style: normal
 }
 
-@font-face {
-    font-family: 'Gilroy-Medium';
-    src: local('Gilroy Medium'), local('Gilroy-Medium'), url('../fonts/Gilroy-Medium.woff2') format('woff2'), url('../fonts/Gilroy-Medium.woff') format('woff'), url('../fonts/Gilroy-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
 * {
     font-family: GT Walsheim Pro;
 }
@@ -38,6 +31,13 @@
 a {
     text-decoration: none;
     color: black;
+}
+
+.text-ellipsis {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 @media screen and (min-width: 767px) {
@@ -89,30 +89,14 @@ hero section
     margin-right: 0%;
 }
 
-.hero-sec-sm-img-container-b {
-    padding-bottom: 0%;
-    padding-right: 20%;
-    padding-top: 27%;
-    padding-left: 28%;
-    position: relative;
-}
-
 .hero-section-main-img-content h2 {
     font-size: 34px;
     font-weight: bold;
-    display: -webkit-box;
     -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .hero-section-img-content h6 {
-    display: -webkit-box;
     -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .hero-sec-box-shad {
@@ -148,12 +132,6 @@ hero section
 @media screen and (max-width: 596px) {
     .hero-section-main-img-content h2 {
         font-size: 22px;
-    }
-    .hero-sec-col {
-        padding: 0 7px;
-    }
-    svg.start {
-        width: 55px;
     }
     .small-img-user {
         width: 17px;
