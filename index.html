@@ -9,13 +9,16 @@
     <title>BingeMoves</title>
 
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- slick slider  -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
+    <!-- slick slider  -->
 </head>
 
 <body>
@@ -26,7 +29,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 p-2">
                         <div class="container-fluid p-0  hero-sec-box-shad">
-                            <div class="hero-section-main-img hero-sec-img-container">
+                            <div class="hero-sec-img-container">
                                 <img class="container-fluid p-0" src="assets/images/sec-1-main-img.png" alt="hero-img">
                             </div>
                             <div class="hero-section-main-img-content m-3 m-lg-4">
@@ -123,16 +126,16 @@
                 </div>
             </div>
         </section>
-        <section class="second-sec trending my-5 py-5">
+        <section class="second-sec trending my-5 py-5 position-relative">
             <div class="container-xxl">
-                <h2 class="text-light fw-bold">Trending</h2>
-                <div class="row  px-1">
+                <h2 class="text-light fw-bold mb-3 mb-md-5">Trending</h2>
+                <div class="second-sec-slider row  px-1">
                     <div class="col-3 p-2">
                         <div class="container-fluid p-0 hero-sec-box-shad">
-                            <div class="hero-section-img hero-sec-sm-img-container-a">
+                            <div class="second-sec-img">
                                 <img class="container-fluid  p-0 h-100" src="assets/images/hero-img-1.png" alt="hero-img">
                             </div>
-                            <div class="hero-section-img-content m-2 m-lg-3">
+                            <div class="second-section-img-content m-2 m-lg-3">
                                 <span class="color-orange fs-12">STARTUP</span>
                                 <h6 class="mb-2 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none">Apple Faces Italian Antitrust Probe Over Alleged App</a></h6>
                                 <div class="d-flex justify-content-between align-items-center">
@@ -147,10 +150,10 @@
                     </div>
                     <div class="col-3 p-2">
                         <div class="container-fluid p-0 hero-sec-box-shad">
-                            <div class="hero-section-img hero-sec-sm-img-container-a">
+                            <div class="second-sec-img">
                                 <img class="container-fluid h-100  p-0" src="assets/images/hero-img-2.png" alt="hero-img">
                             </div>
-                            <div class="hero-section-img-content  m-2 m-lg-3">
+                            <div class="second-section-img-content  m-2 m-lg-3">
                                 <span class="color-orange fs-12">STARTUP</span>
                                 <h6 class="mb-2 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none">Apple Faces Italian Antitrust Probe Over Alleged App</a></h6>
                                 <div class="d-flex justify-content-between align-items-center">
@@ -165,10 +168,10 @@
                     </div>
                     <div class="col-3 p-2">
                         <div class="container-fluid p-0 hero-sec-box-shad">
-                            <div class="hero-section-img hero-sec-sm-img-container-a">
+                            <div class="second-sec-img">
                                 <img class="container-fluid  p-0 h-100" src="assets/images/hero-img-1.png" alt="hero-img">
                             </div>
-                            <div class="hero-section-img-content  m-2 m-lg-3">
+                            <div class="second-section-img-content  m-2 m-lg-3">
                                 <span class="color-orange fs-12">STARTUP</span>
                                 <h6 class="mb-2 fw-bold hero-section-h6 text-ellipsis"><a href="#" class="text-decoration-none">Apple Faces Italian Antitrust Probe Over Alleged App</a></h6>
                                 <div class="d-flex justify-content-between align-items-center">
@@ -183,10 +186,28 @@
                     </div>
                     <div class="col-3 p-2">
                         <div class="container-fluid p-0 hero-sec-box-shad">
-                            <div class="hero-section-img hero-sec-sm-img-container-a">
+                            <div class="second-sec-img">
                                 <img class="container-fluid h-100  p-0" src="assets/images/hero-img-2.png" alt="hero-img">
                             </div>
-                            <div class="hero-section-img-content  m-2 m-lg-3">
+                            <div class="second-section-img-content  m-2 m-lg-3">
+                                <span class="color-orange fs-12">STARTUP</span>
+                                <h6 class="mb-2 fw-bold hero-section-h6 text-ellipsis"><a href="#" class="text-decoration-none">Apple Faces Italian Antitrust Probe Over Alleged App</a></h6>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="d-flex align-items-center gap-1">
+                                        <img class="small-img-user" src="assets/images/user.png" width="26px" height="26px" alt="">
+                                        <span class="fs-12 color-gray">By Dvid Miller</span>
+                                    </div>
+                                    <span class="fs-12 color-gray">09 may 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-2">
+                        <div class="container-fluid p-0 hero-sec-box-shad">
+                            <div class="second-sec-img">
+                                <img class="container-fluid h-100  p-0" src="assets/images/hero-img-2.png" alt="hero-img">
+                            </div>
+                            <div class="second-section-img-content  m-2 m-lg-3">
                                 <span class="color-orange fs-12">STARTUP</span>
                                 <h6 class="mb-2 fw-bold hero-section-h6 text-ellipsis"><a href="#" class="text-decoration-none">Apple Faces Italian Antitrust Probe Over Alleged App</a></h6>
                                 <div class="d-flex justify-content-between align-items-center">
@@ -202,7 +223,7 @@
                 </div>
             </div>
         </section>
-        <section class="third-sec top-news">
+        <section class="third-sec top-news py-3 py-md-5">
             <div class="container-xxl">
                 <div class="top-head d-flex justify-content-between align-items-center mb-3 mb-md-5 flex-column flex-md-row">
                     <h2 class="fw-bold">Top News</h2>
@@ -227,12 +248,12 @@
                                     <div class="third-sec-main-content m-3 m-lg-0 p-lg-5">
                                         <span class="color-orange fs-14">STARTUP</span>
                                         <h2 class="my-2 my-lg-3  text-ellipsis fs-2 fw-bold"><a href="#" class="text-decoration-none">This Japanese Electric Scooter Startup Raised $68 Million To Eliminate Walking</a></h2>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="d-flex align-items-center gap-2">
-                                                <img class="p-0 big-img-user" src="assets/images/user.png" width="32px" height="32px" alt="">
+                                        <div class="d-flex justify-content-between justify-content-lg-start gap-lg-2 align-items-center">
+                                            <div class="d-flex align-items-center gap-1">
+                                                <img class="small-img-user" src="assets/images/user.png" width="26px" height="26px" alt="">
                                                 <span class="fs-12 color-gray">By Dvid Miller</span>
-                                                <span class="fs-10 color-gray">09 may 2023</span>
                                             </div>
+                                            <span class="fs-12 color-gray">09 may 2023</span>
                                         </div>
                                     </div>
                                 </div>
@@ -245,7 +266,7 @@
                         <div class="row">
                             <div class="col-6 col-lg-3 p-2">
                                 <div class="container-fluid p-0 hero-sec-box-shad">
-                                    <div class="hero-section-img hero-sec-sm-img-container-a">
+                                    <div class="hero-sec-sm-img-container-a">
                                         <img class="container-fluid  p-0 h-100" src="assets/images/hero-img-1.png" alt="hero-img">
                                     </div>
                                     <div class="hero-section-img-content m-2 m-lg-3">
@@ -263,7 +284,7 @@
                             </div>
                             <div class="col-6 col-lg-3 p-2">
                                 <div class="container-fluid p-0 hero-sec-box-shad">
-                                    <div class="hero-section-img hero-sec-sm-img-container-a">
+                                    <div class="hero-sec-sm-img-container-a">
                                         <img class="container-fluid h-100  p-0" src="assets/images/hero-img-2.png" alt="hero-img">
                                     </div>
                                     <div class="hero-section-img-content  m-2 m-lg-3">
@@ -281,7 +302,7 @@
                             </div>
                             <div class="col-6 col-lg-3 p-2">
                                 <div class="container-fluid p-0 hero-sec-box-shad">
-                                    <div class="hero-section-img hero-sec-sm-img-container-a">
+                                    <div class="hero-sec-sm-img-container-a">
                                         <img class="container-fluid  p-0 h-100" src="assets/images/hero-img-1.png" alt="hero-img">
                                     </div>
                                     <div class="hero-section-img-content  m-2 m-lg-3">
@@ -299,7 +320,7 @@
                             </div>
                             <div class="col-6 col-lg-3 p-2">
                                 <div class="container-fluid p-0 hero-sec-box-shad">
-                                    <div class="hero-section-img hero-sec-sm-img-container-a">
+                                    <div class="hero-sec-sm-img-container-a">
                                         <img class="container-fluid h-100  p-0" src="assets/images/hero-img-2.png" alt="hero-img">
                                     </div>
                                     <div class="hero-section-img-content  m-2 m-lg-3">
@@ -422,14 +443,702 @@
                 </div>
             </div>
         </section>
+        <section class="fourth-sec top-news py-5">
+            <div class="container-xxl">
+                <div class="top-head d-flex justify-content-between align-items-center mb-3 mb-md-5 flex-column flex-row">
+                    <h2 class="fw-bold mb-3">Top News</h2>
+                    <div>
+                        <ul class="tabs d-flex gap-4 list-inline m-0">
+                            <li class="tab fw-normal fs-4 color-orange p-2 active" data-tab="1">News</li>
+                            <li class="tab fw-normal fs-4 color-gray p-2" data-tab="2">Space</li>
+                            <li class="tab fw-normal fs-4 color-gray p-2" data-tab="3">Technology</li>
+                            <li class="tab fw-normal fs-4 color-gray p-2 d-none d-lg-block" data-tab="4">Movies</li>
+                            <li class="tab fw-normal fs-4 color-gray p-2 d-none d-lg-block" data-tab="4">Politics</li>
+                            <li class="tab fw-normal fs-4 color-gray p-2 d-none d-md-block" data-tab="4">War</li>
+                            <li class="tab fw-normal fs-4 color-gray p-2 d-none d-md-block" data-tab="4">People</li>
+                            <li class="tab fw-normal fs-4 color-gray p-2 d-none d-md-block" data-tab="4">Movies</li>
+                        </ul>
+                        <div class="highlight"></div>
+                    </div>
+                </div>
+                <div class="row tab-content active" data-content="1">
+                    <div class="col-12">
+                        <div class="fourth-sec-tab-slider  row">
+                            <div class="col-6 col-lg-3 p-2">
+                                <div class="container-fluid p-0 hero-sec-box-shad">
+                                    <div class="hero-section-img hero-sec-sm-img-container-a">
+                                        <img class="container-fluid  p-0 h-100" src="assets/images/hero-img-1.png" alt="hero-img">
+                                    </div>
+                                    <div class="hero-section-img-content m-2 m-lg-3">
+                                        <span class="color-orange fs-12">STARTUP</span>
+                                        <h6 class="mb-2 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none">Apple Faces Italian Antitrust Probe Over Alleged App</a></h6>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center gap-1">
+                                                <img class="small-img-user" src="assets/images/user.png" width="26px" height="26px" alt="">
+                                                <span class="fs-12 color-gray">By Dvid Miller</span>
+                                            </div>
+                                            <span class="fs-12 color-gray">09 may 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 p-2">
+                                <div class="container-fluid p-0 hero-sec-box-shad">
+                                    <div class="hero-section-img hero-sec-sm-img-container-a">
+                                        <img class="container-fluid h-100  p-0" src="assets/images/hero-img-2.png" alt="hero-img">
+                                    </div>
+                                    <div class="hero-section-img-content  m-2 m-lg-3">
+                                        <span class="color-orange fs-12">STARTUP</span>
+                                        <h6 class="mb-2 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none">Apple Faces Italian Antitrust Probe Over Alleged App</a></h6>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center gap-1">
+                                                <img class="small-img-user" src="assets/images/user.png" width="26px" height="26px" alt="">
+                                                <span class="fs-12 color-gray">By Dvid Miller</span>
+                                            </div>
+                                            <span class="fs-12 color-gray">09 may 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 p-2">
+                                <div class="container-fluid p-0 hero-sec-box-shad">
+                                    <div class="hero-section-img hero-sec-sm-img-container-a">
+                                        <img class="container-fluid h-100  p-0" src="assets/images/hero-img-2.png" alt="hero-img">
+                                    </div>
+                                    <div class="hero-section-img-content  m-2 m-lg-3">
+                                        <span class="color-orange fs-12">STARTUP</span>
+                                        <h6 class="mb-2 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none">Apple Faces Italian Antitrust Probe Over Alleged App</a></h6>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center gap-1">
+                                                <img class="small-img-user" src="assets/images/user.png" width="26px" height="26px" alt="">
+                                                <span class="fs-12 color-gray">By Dvid Miller</span>
+                                            </div>
+                                            <span class="fs-12 color-gray">09 may 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 p-2">
+                                <div class="container-fluid p-0 hero-sec-box-shad">
+                                    <div class="hero-section-img hero-sec-sm-img-container-a">
+                                        <img class="container-fluid  p-0 h-100" src="assets/images/hero-img-1.png" alt="hero-img">
+                                    </div>
+                                    <div class="hero-section-img-content  m-2 m-lg-3">
+                                        <span class="color-orange fs-12">STARTUP</span>
+                                        <h6 class="mb-2 fw-bold hero-section-h6 text-ellipsis"><a href="#" class="text-decoration-none">Apple Faces Italian Antitrust Probe Over Alleged App</a></h6>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center gap-1">
+                                                <img class="small-img-user" src="assets/images/user.png" width="26px" height="26px" alt="">
+                                                <span class="fs-12 color-gray">By Dvid Miller</span>
+                                            </div>
+                                            <span class="fs-12 color-gray">09 may 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 p-2">
+                                <div class="container-fluid p-0 hero-sec-box-shad">
+                                    <div class="hero-section-img hero-sec-sm-img-container-a">
+                                        <img class="container-fluid h-100  p-0" src="assets/images/hero-img-2.png" alt="hero-img">
+                                    </div>
+                                    <div class="hero-section-img-content  m-2 m-lg-3">
+                                        <span class="color-orange fs-12">STARTUP</span>
+                                        <h6 class="mb-2 fw-bold hero-section-h6 text-ellipsis"><a href="#" class="text-decoration-none">Apple Faces Italian Antitrust Probe Over Alleged App</a></h6>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center gap-1">
+                                                <img class="small-img-user" src="assets/images/user.png" width="26px" height="26px" alt="">
+                                                <span class="fs-12 color-gray">By Dvid Miller</span>
+                                            </div>
+                                            <span class="fs-12 color-gray">09 may 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row tab-content" data-content="2">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-6 col-lg-3 p-2">
+                                <div class="container-fluid p-0 hero-sec-box-shad">
+                                    <div class="hero-section-img hero-sec-sm-img-container-a">
+                                        <img class="container-fluid  p-0 h-100" src="assets/images/hero-img-2.png" alt="hero-img">
+                                    </div>
+                                    <div class="hero-section-img-content m-2 m-lg-3">
+                                        <span class="color-orange fs-12">STARTUP</span>
+                                        <h6 class="mb-2 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none">Apple Faces Italian Antitrust Probe Over Alleged App</a></h6>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center gap-1">
+                                                <img class="small-img-user" src="assets/images/user.png" width="26px" height="26px" alt="">
+                                                <span class="fs-12 color-gray">By Dvid Miller</span>
+                                            </div>
+                                            <span class="fs-12 color-gray">09 may 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 p-2">
+                                <div class="container-fluid p-0 hero-sec-box-shad">
+                                    <div class="hero-section-img hero-sec-sm-img-container-a">
+                                        <img class="container-fluid h-100  p-0" src="assets/images/hero-img-2.png" alt="hero-img">
+                                    </div>
+                                    <div class="hero-section-img-content  m-2 m-lg-3">
+                                        <span class="color-orange fs-12">STARTUP</span>
+                                        <h6 class="mb-2 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none">Apple Faces Italian Antitrust Probe Over Alleged App</a></h6>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center gap-1">
+                                                <img class="small-img-user" src="assets/images/user.png" width="26px" height="26px" alt="">
+                                                <span class="fs-12 color-gray">By Dvid Miller</span>
+                                            </div>
+                                            <span class="fs-12 color-gray">09 may 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 p-2">
+                                <div class="container-fluid p-0 hero-sec-box-shad">
+                                    <div class="hero-section-img hero-sec-sm-img-container-a">
+                                        <img class="container-fluid  p-0 h-100" src="assets/images/hero-img-1.png" alt="hero-img">
+                                    </div>
+                                    <div class="hero-section-img-content  m-2 m-lg-3">
+                                        <span class="color-orange fs-12">STARTUP</span>
+                                        <h6 class="mb-2 fw-bold hero-section-h6 text-ellipsis"><a href="#" class="text-decoration-none">Apple Faces Italian Antitrust Probe Over Alleged App</a></h6>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center gap-1">
+                                                <img class="small-img-user" src="assets/images/user.png" width="26px" height="26px" alt="">
+                                                <span class="fs-12 color-gray">By Dvid Miller</span>
+                                            </div>
+                                            <span class="fs-12 color-gray">09 may 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3 p-2">
+                                <div class="container-fluid p-0 hero-sec-box-shad">
+                                    <div class="hero-section-img hero-sec-sm-img-container-a">
+                                        <img class="container-fluid h-100  p-0" src="assets/images/hero-img-2.png" alt="hero-img">
+                                    </div>
+                                    <div class="hero-section-img-content  m-2 m-lg-3">
+                                        <span class="color-orange fs-12">STARTUP</span>
+                                        <h6 class="mb-2 fw-bold hero-section-h6 text-ellipsis"><a href="#" class="text-decoration-none">Apple Faces Italian Antitrust Probe Over Alleged App</a></h6>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center gap-1">
+                                                <img class="small-img-user" src="assets/images/user.png" width="26px" height="26px" alt="">
+                                                <span class="fs-12 color-gray">By Dvid Miller</span>
+                                            </div>
+                                            <span class="fs-12 color-gray">09 may 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fifth-section tech-politic-world">
+            <div class="container-xxl mt-4 mt-md-5">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 p-lg-0 mb-3">
+                        <div class="container-fluid  p-0">
+                            <h4 class="fw-bold color-orange mb-3 mb-md-5">TECHNOLOGY</h4>
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                        <!-- <div class="me-3"> -->
+                                        <div class="fifth-section-img">
+                                            <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                            <!-- </div> -->
+                                        </div>
+                                        <div class="fifth-section-img-content ms-2 me-4 d-flex flex-column">
+                                            <span class="fs-12 color-orange">STARTUP</span>
+                                            <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center gap-1">
+                                                    <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                    <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                </div>
+                                                <span class="fs-12 color-gray">09 may 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                        <!-- <div class="me-3"> -->
+                                        <div class="fifth-section-img">
+                                            <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                            <!-- </div> -->
+                                        </div>
+                                        <div class="fifth-section-img-content ms-2 me-4 d-flex flex-column">
+                                            <span class="fs-12 color-orange">STARTUP</span>
+                                            <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center gap-1">
+                                                    <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                    <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                </div>
+                                                <span class="fs-12 color-gray">09 may 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                        <!-- <div class="me-3"> -->
+                                        <div class="fifth-section-img">
+                                            <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                            <!-- </div> -->
+                                        </div>
+                                        <div class="fifth-section-img-content ms-2 me-4 d-flex flex-column">
+                                            <span class="fs-12 color-orange">STARTUP</span>
+                                            <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center gap-1">
+                                                    <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                    <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                </div>
+                                                <span class="fs-12 color-gray">09 may 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                        <!-- <div class="me-3"> -->
+                                        <div class="fifth-section-img">
+                                            <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                            <!-- </div> -->
+                                        </div>
+                                        <div class="fifth-section-img-content ms-2 me-4 d-flex flex-column">
+                                            <span class="fs-12 color-orange">STARTUP</span>
+                                            <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center gap-1">
+                                                    <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                    <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                </div>
+                                                <span class="fs-12 color-gray">09 may 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                        <!-- <div class="me-3"> -->
+                                        <div class="fifth-section-img">
+                                            <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                            <!-- </div> -->
+                                        </div>
+                                        <div class="fifth-section-img-content ms-2 me-4 d-flex flex-column">
+                                            <span class="fs-12 color-orange">STARTUP</span>
+                                            <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center gap-1">
+                                                    <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                    <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                </div>
+                                                <span class="fs-12 color-gray">09 may 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 p-lg-0">
+                        <div class="container-fluid  p-0">
+                            <h4 class="fw-bold color-orange  mb-3 mb-md-5">POLITICS</h4>
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                        <!-- <div class="me-3"> -->
+                                        <div class="fifth-section-img">
+                                            <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                            <!-- </div> -->
+                                        </div>
+                                        <div class="fifth-section-img-content ms-2 me-4 d-flex flex-column">
+                                            <span class="fs-12 color-orange">STARTUP</span>
+                                            <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center gap-1">
+                                                    <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                    <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                </div>
+                                                <span class="fs-12 color-gray">09 may 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                        <!-- <div class="me-3"> -->
+                                        <div class="fifth-section-img">
+                                            <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                            <!-- </div> -->
+                                        </div>
+                                        <div class="fifth-section-img-content ms-2 me-4 d-flex flex-column">
+                                            <span class="fs-12 color-orange">STARTUP</span>
+                                            <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center gap-1">
+                                                    <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                    <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                </div>
+                                                <span class="fs-12 color-gray">09 may 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                        <!-- <div class="me-3"> -->
+                                        <div class="fifth-section-img">
+                                            <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                            <!-- </div> -->
+                                        </div>
+                                        <div class="fifth-section-img-content ms-2 me-4 d-flex flex-column">
+                                            <span class="fs-12 color-orange">STARTUP</span>
+                                            <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center gap-1">
+                                                    <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                    <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                </div>
+                                                <span class="fs-12 color-gray">09 may 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                        <!-- <div class="me-3"> -->
+                                        <div class="fifth-section-img">
+                                            <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                            <!-- </div> -->
+                                        </div>
+                                        <div class="fifth-section-img-content ms-2 me-4 d-flex flex-column">
+                                            <span class="fs-12 color-orange">STARTUP</span>
+                                            <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center gap-1">
+                                                    <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                    <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                </div>
+                                                <span class="fs-12 color-gray">09 may 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                        <!-- <div class="me-3"> -->
+                                        <div class="fifth-section-img">
+                                            <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                            <!-- </div> -->
+                                        </div>
+                                        <div class="fifth-section-img-content ms-2 me-4 d-flex flex-column">
+                                            <span class="fs-12 color-orange">STARTUP</span>
+                                            <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center gap-1">
+                                                    <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                    <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                </div>
+                                                <span class="fs-12 color-gray">09 may 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 p-0 d-none d-lg-block">
+                        <div class="container-fluid  p-0">
+                            <h4 class="fw-bold color-orange mb-5">WORLD</h4>
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                        <!-- <div class="me-3"> -->
+                                        <div class="fifth-section-img">
+                                            <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                            <!-- </div> -->
+                                        </div>
+                                        <div class="fifth-section-img-content ms-2 me-">
+                                            <span class="fs-12 color-orange">STARTUP</span>
+                                            <h6 class="fs-14 my-1 fw-bold hero-section-h6 text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center gap-1">
+                                                    <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                    <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                </div>
+                                                <span class="fs-12 color-gray">09 may 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                        <!-- <div class="me-3"> -->
+                                        <div class="fifth-section-img">
+                                            <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                            <!-- </div> -->
+                                        </div>
+                                        <div class="fifth-section-img-content ms-2 me-4 d-flex flex-column">
+                                            <span class="fs-12 color-orange">STARTUP</span>
+                                            <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center gap-1">
+                                                    <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                    <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                </div>
+                                                <span class="fs-12 color-gray">09 may 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                        <!-- <div class="me-3"> -->
+                                        <div class="fifth-section-img">
+                                            <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                            <!-- </div> -->
+                                        </div>
+                                        <div class="fifth-section-img-content ms-2 me-4 d-flex flex-column">
+                                            <span class="fs-12 color-orange">STARTUP</span>
+                                            <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center gap-1">
+                                                    <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                    <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                </div>
+                                                <span class="fs-12 color-gray">09 may 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                        <!-- <div class="me-3"> -->
+                                        <div class="fifth-section-img">
+                                            <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                            <!-- </div> -->
+                                        </div>
+                                        <div class="fifth-section-img-content ms-2 me-4 d-flex flex-column">
+                                            <span class="fs-12 color-orange">STARTUP</span>
+                                            <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center gap-1">
+                                                    <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                    <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                </div>
+                                                <span class="fs-12 color-gray">09 may 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                        <!-- <div class="me-3"> -->
+                                        <div class="fifth-section-img">
+                                            <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                            <!-- </div> -->
+                                        </div>
+                                        <div class="fifth-section-img-content ms-2 me-4 d-flex flex-column">
+                                            <span class="fs-12 color-orange">STARTUP</span>
+                                            <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center gap-1">
+                                                    <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                    <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                </div>
+                                                <span class="fs-12 color-gray">09 may 2023</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="sixth-sec feature-for-member py-5">
+            <div class="container-xxl">
+                <h2 class="fw-bold mb-4">Featured for members</h2>
+                <div class="row">
+                    <div class="col-12 col-lg-4 p-2">
+                        <div class="container-fluid p-0">
+                            <div class="sixth-sec-img-container">
+                                <img class="container-fluid p-0" src="assets/images/sixth-sec-main-img.png" alt="hero-img">
+                            </div>
+                            <div class="m-3 mt-2">
+                                <span class="color-orange fs-12">STARTUP</span>
+                                <h4 class="my-2 fw-bold text-ellipsis"><a href="#" class="text-decoration-none">The crazy plan to explode a nuclear bomb on the Moon</a></h4>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img class="p-0 big-img-user" src="assets/images/user.png" width="20px" height="20px" alt="">
+                                        <span class="fs-12 color-gray">By Dvid Miller</span>
+                                    </div>
+                                    <span class="fs-12 color-gray">09 may 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-8 py-2 px-0">
+                        <div class="container-fluid px-2 px-lg-4">
+                            <div class="row">
+                                <div class="col-12 col-md-6 p-lg-0">
+                                    <div class="container-fluid  p-0">
+                                        <div class="row">
+                                            <div class="col-12 mb-2 mb-lg-4">
+                                                <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                                    <!-- <div class="me-3"> -->
+                                                    <div class="sixth-section-img">
+                                                        <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                                        <!-- </div> -->
+                                                    </div>
+                                                    <div class="sixth-section-img-content ms-2 me-4 d-flex flex-column">
+                                                        <span class="fs-12 color-orange">STARTUP</span>
+                                                        <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <div class="d-flex align-items-center gap-1">
+                                                                <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                                <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                            </div>
+                                                            <span class="fs-12 color-gray">09 may 2023</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-12 mb-2 mb-lg-4 mt-2">
+                                                <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                                    <!-- <div class="me-3"> -->
+                                                    <div class="sixth-section-img">
+                                                        <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                                        <!-- </div> -->
+                                                    </div>
+                                                    <div class="sixth-section-img-content ms-2 me-4 d-flex flex-column">
+                                                        <span class="fs-12 color-orange">STARTUP</span>
+                                                        <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <div class="d-flex align-items-center gap-1">
+                                                                <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                                <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                            </div>
+                                                            <span class="fs-12 color-gray">09 may 2023</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-12 mb-2 mb-lg-4 mt-2">
+                                                <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                                    <!-- <div class="me-3"> -->
+                                                    <div class="sixth-section-img">
+                                                        <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                                        <!-- </div> -->
+                                                    </div>
+                                                    <div class="sixth-section-img-content ms-2 me-4 d-flex flex-column">
+                                                        <span class="fs-12 color-orange">STARTUP</span>
+                                                        <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <div class="d-flex align-items-center gap-1">
+                                                                <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                                <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                            </div>
+                                                            <span class="fs-12 color-gray">09 may 2023</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 d-none d-md-block p-lg-0 mb-3">
+                                    <div class="container-fluid  p-0">
+                                        <div class="row">
+                                            <div class="col-12 mb-2 mb-lg-4">
+                                                <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                                    <!-- <div class="me-3"> -->
+                                                    <div class="sixth-section-img">
+                                                        <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                                        <!-- </div> -->
+                                                    </div>
+                                                    <div class="sixth-section-img-content ms-2 me-4 d-flex flex-column">
+                                                        <span class="fs-12 color-orange">STARTUP</span>
+                                                        <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <div class="d-flex align-items-center gap-1">
+                                                                <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                                <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                            </div>
+                                                            <span class="fs-12 color-gray">09 may 2023</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-12 mb-2 mb-lg-4 mt-2">
+                                                <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                                    <!-- <div class="me-3"> -->
+                                                    <div class="sixth-section-img">
+                                                        <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                                        <!-- </div> -->
+                                                    </div>
+                                                    <div class="sixth-section-img-content ms-2 me-4 d-flex flex-column">
+                                                        <span class="fs-12 color-orange">STARTUP</span>
+                                                        <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <div class="d-flex align-items-center gap-1">
+                                                                <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                                <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                            </div>
+                                                            <span class="fs-12 color-gray">09 may 2023</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-12 mb-2 mb-lg-4 mt-2">
+                                                <div class="container-fluid p-0 d-flex align-items-center gap-1">
+                                                    <!-- <div class="me-3"> -->
+                                                    <div class="sixth-section-img">
+                                                        <img class="container-fluid  p-0 h-100" src="assets/images/fifth-sec-1.png" alt="hero-img">
+                                                        <!-- </div> -->
+                                                    </div>
+                                                    <div class="sixth-section-img-content ms-2 me-4 d-flex flex-column">
+                                                        <span class="fs-12 color-orange">STARTUP</span>
+                                                        <h6 class="fs-14 my-1 fw-bold hero-section-h6  text-ellipsis"><a href="#" class="text-decoration-none texts-black">The crazy plan to explode a nuclear bomb on the Moon</a></h6>
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <div class="d-flex align-items-center gap-1">
+                                                                <img class="small-img-john" src="assets/images/people.png" width="20px" height="20px" alt="">
+                                                                <span class="fs-12 color-gray">By Dvid Miller</span>
+                                                            </div>
+                                                            <span class="fs-12 color-gray">09 may 2023</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer></footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="assets/js/swiper-bundle.min.js"></script>
-
     <!-- Core theme JS-->
     <script src="assets/js/script.js"></script>
+    <!-- slick slider  -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- slick slider  -->
 </body>
 
 </html>

@@ -51,7 +51,7 @@ a {
 .highlight {
     height: 4px;
     border-radius: 6px;
-    background: #004E44;
+    background: #FF4C38;
     width: 0;
     position: absolute;
     transition: all .5s ease-in-out;
@@ -72,8 +72,12 @@ a {
 
 .hero-sec-img-container img,
 .hero-sec-sm-img-container-a img,
+.second-sec-img img,
 .second-sec-main-img img,
-.third-sec-main-img img {
+.third-sec-main-img img,
+.fifth-section-img img,
+.sixth-sec-img-container img,
+.sixth-section-img img {
     display: block;
     width: 100%;
     position: absolute;
@@ -160,10 +164,68 @@ Second section
 
 .second-sec {
     background-color: #FF4C38;
+    overflow: hidden;
 }
 
 .second-sec h2 {
     font-size: 45px;
+}
+
+.second-section-img-content h6 {
+    -webkit-line-clamp: 2;
+}
+
+.second-sec-img {
+    padding-top: 56%;
+    position: relative;
+    margin-right: 0%;
+}
+
+@media screen and (min-width: 768px) {
+    .second-sec-slider .slick-arrow {
+        position: absolute;
+        width: 61px;
+        top: -30%;
+        cursor: pointer;
+    }
+    .second-sec-slider svg.slick-arrow.prevArrow {
+        right: 55px;
+    }
+    .second-sec-slider svg.slick-arrow.nextArrow {
+        right: 0;
+    }
+    .second-sec-slider .slick-dots {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .second-sec-slider .slick-arrow {
+        width: 60px;
+        position: absolute;
+        bottom: -17%;
+        transform: translateX(-50%);
+        z-index: 1;
+        cursor: pointer;
+    }
+    .second-sec-slider svg.slick-arrow.prevArrow {
+        left: 10%;
+    }
+    .second-sec-slider svg.slick-arrow.nextArrow {
+        right: -3%;
+    }
+    .second-sec-slider .slick-dots li button:before {
+        font-size: 17px !important;
+        opacity: 0.5 !important;
+        color: #fff !important;
+    }
+    .second-sec-slider .slick-dots li.slick-active button:before {
+        opacity: .85 !important;
+        color: rgb(255, 255, 255) !important;
+    }
+    .second-sec-slider .slick-dots {
+        bottom: -61px;
+    }
 }
 
 
@@ -235,4 +297,111 @@ third section
         box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
         border-radius: 10px;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .third-sec .top-head ul li {
+        font-size: 18px !important;
+    }
+}
+
+
+/* -----------------------------------
+Fourth section 
+----------------------------------- */
+
+.fourth-sec {
+    background: #F9F9F9;
+}
+
+.fourth-sec .top-head ul li {
+    cursor: pointer;
+}
+
+.fourth-sec .slick-prev:before {
+    display: none;
+}
+
+.fourth-sec .slick-next:before {
+    content: none;
+}
+
+.fourth-sec .slick-prev {
+    left: -44px;
+    background-image: url("/assets/images/arrow-left-red.svg") !important;
+    width: 40px;
+    height: 40px;
+}
+
+.fourth-sec .slick-next {
+    right: -44px;
+    background-image: url("/assets/images/arrow-right-red.svg") !important;
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width:768px) {
+    .fourth-sec .slick-prev {
+        bottom: -70px;
+        top: auto;
+        left: 10px;
+    }
+    .fourth-sec .slick-next {
+        bottom: -70px;
+        top: auto;
+        right: 10px;
+    }
+}
+
+.fourth-sec .top-head ul li {
+    font-size: 18px !important;
+}
+
+
+/* -----------------------------------
+fifth section 
+----------------------------------- */
+
+.fifth-section-img {
+    padding-right: 40%;
+    padding-top: 23%;
+    position: relative;
+}
+
+.fifth-section-img img {
+    border-radius: 10px;
+}
+
+.fifth-section-img-content h6 {
+    -webkit-line-clamp: 2;
+}
+
+
+/* -----------------------------------
+sixth section 
+----------------------------------- */
+
+
+/* .sixth-sec h2 {
+    font-size: 45px;
+} */
+
+.sixth-sec-img-container img {
+    border-radius: 10px;
+}
+
+.sixth-sec-img-container {
+    padding-top: 56%;
+    position: relative;
+    margin-right: 0%;
+}
+
+.sixth-section-img {
+    padding-right: 42%;
+    padding-top: 23.3%;
+    position: relative;
+}
+
+.sixth-section-img-content h6 {
+    -webkit-line-clamp: 2;
 }
