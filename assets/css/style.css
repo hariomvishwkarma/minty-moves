@@ -41,7 +41,7 @@ a {
     background-color: #FF4C38;
 }
 
-.color-gray {
+l .color-gray {
     color: #555;
 }
 
@@ -188,7 +188,7 @@ Second section
     margin-right: 0%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
     .second-sec-slider .slick-arrow {
         position: absolute;
         width: 61px;
@@ -347,11 +347,33 @@ Fourth section
     height: 40px;
 }
 
+.fourth-sec .slick-dots {
+    display: none !important;
+}
+
+.fourth-sec .slick-dots li button:before {
+    font-size: 17px !important;
+    opacity: 0.2 !important;
+    color: #FF4C38 !important;
+}
+
+.fourth-sec .slick-dots li.slick-active button:before {
+    opacity: .85 !important;
+    color: #FF4C38 !important;
+}
+
+.fourth-sec .slick-dots {
+    bottom: -61px;
+}
+
 @media screen and (max-width:768px) {
     .fourth-sec .slick-prev {
         bottom: -70px;
         top: auto;
         left: 10px;
+    }
+    .fourth-sec .slick-dots {
+        display: block !important;
     }
     .fourth-sec .slick-next {
         bottom: -70px;
@@ -641,6 +663,31 @@ tenth-section
 
 .tenth-sect-img-content .text-ellipsis {
     -webkit-line-clamp: 2;
+}
+
+.tenth-sec button {
+    background-color: #55555530;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+@media only screen and (min-width:992px) {
+    .tenth-sec button {
+        width: 25% !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .tenth-sec button {
+        width: 35% !important;
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (max-width:596px) {
+    .tenth-sec button {
+        width: 45% !important;
+    }
 }
 
 @media only screen and (max-width:768px) {

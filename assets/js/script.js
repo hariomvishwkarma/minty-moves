@@ -162,6 +162,7 @@ $(document).ready(function() {
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: true,
+        dots: true,
         speed: 1000,
         infinite: true,
         autoplaySpeed: 5000,
