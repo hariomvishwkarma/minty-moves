@@ -188,7 +188,7 @@ Second section
     margin-right: 0%;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .second-sec-slider .slick-arrow {
         position: absolute;
         width: 61px;
@@ -347,10 +347,6 @@ Fourth section
     height: 40px;
 }
 
-.fourth-sec .slick-dots {
-    display: none !important;
-}
-
 .fourth-sec .slick-dots li button:before {
     font-size: 17px !important;
     opacity: 0.2 !important;
@@ -366,19 +362,25 @@ Fourth section
     bottom: -61px;
 }
 
-@media screen and (max-width:768px) {
+.fourth-sec .slick-dots {
+    display: none !important;
+}
+
+@media screen and (max-width:767px) {
     .fourth-sec .slick-prev {
         bottom: -70px;
         top: auto;
         left: 10px;
-    }
-    .fourth-sec .slick-dots {
-        display: block !important;
+        z-index: 1;
     }
     .fourth-sec .slick-next {
         bottom: -70px;
         top: auto;
         right: 10px;
+        z-index: 1;
+    }
+    .fourth-sec .slick-dots {
+        display: block !important;
     }
 }
 
@@ -677,7 +679,7 @@ tenth-section
     }
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:768px) {
     .tenth-sec button {
         width: 35% !important;
         font-size: 18px !important;
@@ -686,7 +688,8 @@ tenth-section
 
 @media only screen and (max-width:596px) {
     .tenth-sec button {
-        width: 45% !important;
+        width: 35% !important;
+        font-size: 18px !important;
     }
 }
 
