@@ -82,7 +82,9 @@ a {
 .fifth-section-img img,
 .sixth-sec-img-container img,
 .sixth-section-img img,
-.eighth-sec-img img {
+.eighth-sec-img img,
+.ninth-section-img img,
+.tenth-sec-img img {
     display: block;
     width: 100%;
     position: absolute;
@@ -576,3 +578,73 @@ eighth-section
 /* -----------------------------------
 ninth-section 
 ----------------------------------- */
+
+.ninth-section-img {
+    padding-right: 40%;
+    padding-top: 23%;
+    position: relative;
+}
+
+.ninth-section-img img {
+    border-radius: 10px;
+}
+
+.ninth-section-img-content h6 {
+    -webkit-line-clamp: 2;
+}
+
+.ninth-sec .fs-14 {
+    font-size: 10px;
+}
+
+.eighth-sect-img-content h3 {
+    -webkit-line-clamp: 2 !important;
+}
+
+@media screen and (min-width:1200px) {
+    .ninth-section-img-content h6 {
+        font-size: 20px;
+    }
+    .ninth-sec .small-img-john {
+        width: 25px;
+        height: 25px;
+    }
+    .ninth-sec .fs-14 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:596px) {
+    .ninth-section-img-content h6 {
+        font-size: 14px;
+    }
+}
+
+
+/* -----------------------------------
+tenth-section 
+----------------------------------- */
+
+.tenth-sec h2 {
+    font-size: 45px;
+}
+
+.tenth-sec-img {
+    padding-top: 56%;
+    position: relative;
+    margin-right: 0%;
+}
+
+.tenth-sec-img img {
+    border-radius: 10px;
+}
+
+.tenth-sect-img-content .text-ellipsis {
+    -webkit-line-clamp: 2;
+}
+
+@media only screen and (max-width:768px) {
+    .tenth-sec h2 {
+        font-size: 25px;
+    }
+}
