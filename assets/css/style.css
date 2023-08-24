@@ -249,6 +249,9 @@ Second section
     .second-sec-slider .slick-dots {
         bottom: -61px;
     }
+    .second-sec .fs-12 {
+        font-size: 12px;
+    }
 }
 
 
@@ -376,6 +379,9 @@ third section
 @media screen and (max-width: 768px) {
     .third-sec .top-head ul li {
         font-size: 18px !important;
+    }
+    .second-sec .fs-12 {
+        font-size: 12px;
     }
 }
 
