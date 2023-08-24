@@ -28,6 +28,10 @@
     font-size: 10px;
 }
 
+.fw-500 {
+    font-weight: 500;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -79,6 +83,7 @@ a {
 .second-sec-img img,
 .second-sec-main-img img,
 .third-sec-main-img img,
+.fourth-sec-img img,
 .fifth-section-img img,
 .sixth-sec-img-container img,
 .sixth-section-img img,
@@ -325,38 +330,92 @@ Fourth section
     cursor: pointer;
 }
 
+.fourth-section-img-content h6 {
+    -webkit-line-clamp: 3;
+}
+
+.fourth-sec-img {
+    padding-top: 56%;
+    position: relative;
+    margin-right: 0%;
+}
+
+.fourth-sec-img span {
+    border-radius: 8px 0 10px 0;
+    color: black;
+    background-color: white !important;
+}
+
 .fourth-sec .slick-prev:before {
-    display: none;
+    content: '';
+    background-image: url('/assets/images/arrow-left-red.svg') !important;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    position: absolute;
 }
 
 .fourth-sec .slick-next:before {
-    content: none;
-}
-
-.fourth-sec .slick-prev {
-    left: -44px;
-    background-image: url("/assets/images/arrow-left-red.svg") !important;
-    width: 40px;
-    height: 40px;
-}
-
-.fourth-sec .slick-next {
-    right: -44px;
+    content: '';
     background-image: url("/assets/images/arrow-right-red.svg") !important;
     width: 40px;
     height: 40px;
+    background-repeat: no-repeat;
+    position: absolute;
 }
 
-@media screen and (max-width:768px) {
+.fourth-sec .slick-prev {
+    left: -50px;
+    top: 46%;
+    z-index: 1;
+}
+
+.fourth-sec .slick-next {
+    right: -10px;
+    top: 46%;
+    z-index: 1;
+}
+
+.fourth-sec .slick-dots {
+    display: none !important;
+}
+
+.fourth-sec h6 {
+    font-size: 20px;
+}
+
+
+/* @media screen and (max-width:992px) {
+    .fourth-sec h6 {
+        font-size: 18px;
+    }
+} */
+
+@media screen and (max-width:767px) {
     .fourth-sec .slick-prev {
-        bottom: -70px;
+        bottom: -30px;
         top: auto;
         left: 10px;
     }
     .fourth-sec .slick-next {
-        bottom: -70px;
+        bottom: -30px;
         top: auto;
-        right: 10px;
+        right: 46px;
+    }
+    .fourth-sec .slick-dots li button:before {
+        font-size: 17px !important;
+        opacity: 0.2 !important;
+        color: #FF4C38 !important;
+    }
+    .fourth-sec .slick-dots li.slick-active button:before {
+        opacity: .85 !important;
+        color: #FF4C38 !important;
+    }
+    .fourth-sec .slick-dots {
+        bottom: -61px;
+    }
+    .fourth-sec .slick-dots {
+        display: block !important;
     }
 }
 
