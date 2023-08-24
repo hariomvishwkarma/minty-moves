@@ -157,6 +157,7 @@ $(document).ready(function() {
     });
 });
 
+
 $(document).ready(function() {
     $('.fourth-sec-tab-slider').slick({
         slidesToShow: 4,
@@ -167,8 +168,8 @@ $(document).ready(function() {
         autoplaySpeed: 5000,
         autoplay: false,
         dots: true,
-        // nextArrow: '<svg class="slick-arrow nextArrow" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none"><circle opacity="0.1" cx="20" cy="20" r="20" transform="matrix(-1 0 0 1 40 0)" fill="black"/><path d="M17.6031 14.4L23.2031 20.8L17.6031 26" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>',
-        // prevArrow: '<svg class="slick-arrow prevArrow" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none"><circle opacity="0.1" cx="20" cy="20" r="20" fill="black"/><path d="M22.3969 14.4L16.7969 20.8L22.3969 26" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>',
+        nextArrow: '<svg class="slick-arrow nextArrow" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle opacity="0.1" cx="20" cy="20" r="20" transform="matrix(-1 0 0 1 40 0)" fill="#FF4C38"/><path d="M17.6031 14.4004L23.2031 20.8004L17.6031 26.0004" stroke="#FF4C38" stroke-width="2" stroke-linecap="round"/></svg>',
+        prevArrow: '<svg class="slick-arrow prevArrow" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle opacity="0.1" cx="20" cy="20" r="20" fill="#FF4C38"/><path d="M22.3969 14.4004L16.7969 20.8004L22.3969 26.0004" stroke="#FF4C38" stroke-width="2" stroke-linecap="round"/></svg>',
         responsive: [{
                 breakpoint: 992,
                 settings: {
@@ -201,6 +202,8 @@ $(document).ready(function() {
         autoplay: false,
         dots: true,
         fade: true,
+        nextArrow: '<svg class="slick-arrow nextArrow" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle opacity="0.1" cx="20" cy="20" r="20" transform="matrix(-1 0 0 1 40 0)" fill="#FF4C38"/><path d="M17.6031 14.4004L23.2031 20.8004L17.6031 26.0004" stroke="#FF4C38" stroke-width="2" stroke-linecap="round"/></svg>',
+        prevArrow: '<svg class="slick-arrow prevArrow" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle opacity="0.1" cx="20" cy="20" r="20" fill="#FF4C38"/><path d="M22.3969 14.4004L16.7969 20.8004L22.3969 26.0004" stroke="#FF4C38" stroke-width="2" stroke-linecap="round"/></svg>',
         responsive: [{
             breakpoint: 992,
             settings: {

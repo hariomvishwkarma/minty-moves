@@ -183,6 +183,10 @@ Second section
     font-size: 45px;
 }
 
+.second-sec h6 {
+    font-size: 20px;
+}
+
 .second-section-img-content h6 {
     -webkit-line-clamp: 2;
 }
@@ -191,6 +195,13 @@ Second section
     padding-top: 56%;
     position: relative;
     margin-right: 0%;
+}
+
+.second-sec .hero-sec-box-shad {
+    box-shadow: 0px 0px 10.390625px 0px rgba(0, 0, 0, 0.10);
+    border: 0.742px solid #E2E2E2;
+    background: #CB3625;
+    border-radius: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -337,7 +348,7 @@ third section
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .third-section .fs-12 {
         font-size: 9px;
     }
@@ -365,6 +376,54 @@ third section
 @media screen and (max-width: 768px) {
     .third-sec .top-head ul li {
         font-size: 18px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .third-sec .slick-arrow {
+        position: absolute;
+        width: 61px;
+        top: 64%;
+        cursor: pointer;
+    }
+    .third-sec svg.slick-arrow.prevArrow {
+        right: 10%;
+        z-index: 1;
+    }
+    .third-sec svg.slick-arrow.nextArrow {
+        right: 4%;
+    }
+    .third-sec .slick-dots {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .third-sec .slick-arrow {
+        width: 60px;
+        position: absolute;
+        bottom: -17%;
+        transform: translateX(-50%);
+        z-index: 1;
+        cursor: pointer;
+    }
+    .third-sec svg.slick-arrow.prevArrow {
+        left: 10%;
+    }
+    .third-sec svg.slick-arrow.nextArrow {
+        right: -3%;
+    }
+    .third-sec .slick-dots li button:before {
+        font-size: 17px !important;
+        opacity: 0.2 !important;
+        color: #FF4C38 !important;
+    }
+    .third-sec .slick-dots li.slick-active button:before {
+        opacity: .85 !important;
+        color: #FF4C38 !important;
+    }
+    .third-sec .slick-dots {
+        bottom: -61px;
     }
 }
 
@@ -472,6 +531,53 @@ Fourth section
 
 .fourth-sec .top-head ul li {
     font-size: 18px !important;
+}
+
+@media screen and (min-width: 768px) {
+    .fourth-sec .slick-arrow {
+        position: absolute;
+        width: 61px;
+        top: 50%;
+        cursor: pointer;
+    }
+    .fourth-sec svg.slick-arrow.prevArrow {
+        left: -50px;
+    }
+    .fourth-sec svg.slick-arrow.nextArrow {
+        right: -50px;
+    }
+    .fourth-sec .slick-dots {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .fourth-sec .slick-arrow {
+        width: 60px;
+        position: absolute;
+        bottom: -17%;
+        transform: translateX(-50%);
+        z-index: 1;
+        cursor: pointer;
+    }
+    .fourth-sec svg.slick-arrow.prevArrow {
+        left: 10%;
+    }
+    .fourth-sec svg.slick-arrow.nextArrow {
+        right: -3%;
+    }
+    .fourth-sec .slick-dots li button:before {
+        font-size: 17px !important;
+        opacity: 0.2 !important;
+        color: #FF4C38 !important;
+    }
+    .fourth-sec .slick-dots li.slick-active button:before {
+        opacity: .85 !important;
+        color: #FF4C38 !important;
+    }
+    .fourth-sec .slick-dots {
+        bottom: -61px;
+    }
 }
 
 
