@@ -189,3 +189,24 @@ $(document).ready(function() {
         ]
     });
 });
+
+$(document).ready(function() {
+    $('.third-sec-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        speed: 800,
+        infinite: true,
+        autoplaySpeed: 5000,
+        autoplay: false,
+        dots: true,
+        fade: true,
+        responsive: [{
+            breakpoint: 992,
+            settings: {
+                fade: false,
+                arrows: false,
+            }
+        }]
+    });
+});
