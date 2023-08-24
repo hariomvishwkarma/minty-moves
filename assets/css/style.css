@@ -456,10 +456,9 @@ fifth section
 sixth section 
 ----------------------------------- */
 
-
-/* .sixth-sec h2 {
-    font-size: 45px;
-} */
+.sixth-sec {
+    overflow: hidden;
+}
 
 .sixth-sec-img-container img {
     border-radius: 10px;
