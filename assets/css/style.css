@@ -701,8 +701,22 @@ tenth-section
     -webkit-line-clamp: 2;
 }
 
+.tenth-sec button {
+    background-color: rgb(214, 212, 212);
+    margin: 0 auto;
+    width: 25%;
+}
+
 @media only screen and (max-width:768px) {
     .tenth-sec h2 {
         font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .tenth-sec button {
+        background-color: rgb(214, 212, 212);
+        margin: 0 auto;
+        width: 50%;
     }
 }
