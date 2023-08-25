@@ -252,6 +252,10 @@ Second section
     .second-sec .fs-12 {
         font-size: 12px;
     }
+    .second-section-img-content .small-img-user {
+        width: 25px;
+        height: 25px;
+    }
 }
 
 
@@ -261,16 +265,6 @@ third section
 
 .third-sec .top-head ul li {
     cursor: pointer;
-}
-
-.second-sec-main-img {
-    padding-top: 56.2%;
-    position: relative;
-    margin-right: 0%;
-}
-
-.second-sec-main-img img {
-    border-radius: 20px;
 }
 
 .third-sec-main-content h2 {
@@ -288,24 +282,6 @@ third section
 
 .tab-content {
     display: none;
-}
-
-.third-sec .slick-prev:before {
-    content: '';
-    background-image: url('/assets/images/arrow-left-red.svg') !important;
-    width: 40px;
-    height: 40px;
-    background-repeat: no-repeat;
-    position: absolute;
-}
-
-.third-sec .slick-next:before {
-    content: '';
-    background-image: url("/assets/images/arrow-right-red.svg") !important;
-    width: 40px;
-    height: 40px;
-    background-repeat: no-repeat;
-    position: absolute;
 }
 
 .third-sec .slick-prev {
@@ -371,17 +347,15 @@ third section
     .third-sec .slick-next {
         display: none;
     }
-    .third-sec-slider {
+    .third-sec-main-content .third-sec-slider {
         pointer-events: none;
     }
-}
-
-@media screen and (max-width: 768px) {
-    .third-sec .top-head ul li {
-        font-size: 18px !important;
-    }
-    .second-sec .fs-12 {
+    .third-sec-main-content .fs-12 {
         font-size: 12px;
+    }
+    .third-sec-main-content .small-img-user {
+        width: 24px;
+        height: 24px;
     }
 }
 
@@ -405,6 +379,12 @@ third section
 }
 
 @media screen and (max-width: 767px) {
+    .third-sec .top-head ul li {
+        font-size: 18px !important;
+    }
+    .second-sec .fs-12 {
+        font-size: 12px;
+    }
     .third-sec .slick-arrow {
         width: 60px;
         position: absolute;
@@ -462,24 +442,6 @@ Fourth section
     background-color: white !important;
 }
 
-.fourth-sec .slick-prev:before {
-    content: '';
-    background-image: url('/assets/images/arrow-left-red.svg') !important;
-    width: 40px;
-    height: 40px;
-    background-repeat: no-repeat;
-    position: absolute;
-}
-
-.fourth-sec .slick-next:before {
-    content: '';
-    background-image: url("/assets/images/arrow-right-red.svg") !important;
-    width: 40px;
-    height: 40px;
-    background-repeat: no-repeat;
-    position: absolute;
-}
-
 .fourth-sec .slick-prev {
     left: -50px;
     top: 46%;
@@ -500,12 +462,9 @@ Fourth section
     font-size: 20px;
 }
 
-
-/* @media screen and (max-width:992px) {
-    .fourth-sec h6 {
-        font-size: 18px;
-    }
-} */
+.fourth-sec .top-head ul li {
+    font-size: 18px !important;
+}
 
 @media screen and (max-width:767px) {
     .fourth-sec .slick-prev {
@@ -518,46 +477,9 @@ Fourth section
         top: auto;
         right: 46px;
     }
-    .fourth-sec .slick-dots li button:before {
-        font-size: 17px !important;
-        opacity: 0.2 !important;
-        color: #FF4C38 !important;
-    }
-    .fourth-sec .slick-dots li.slick-active button:before {
-        opacity: .85 !important;
-        color: #FF4C38 !important;
-    }
-    .fourth-sec .slick-dots {
-        bottom: -61px;
-    }
     .fourth-sec .slick-dots {
         display: block !important;
     }
-}
-
-.fourth-sec .top-head ul li {
-    font-size: 18px !important;
-}
-
-@media screen and (min-width: 768px) {
-    .fourth-sec .slick-arrow {
-        position: absolute;
-        width: 61px;
-        top: 50%;
-        cursor: pointer;
-    }
-    .fourth-sec svg.slick-arrow.prevArrow {
-        left: -50px;
-    }
-    .fourth-sec svg.slick-arrow.nextArrow {
-        right: -50px;
-    }
-    .fourth-sec .slick-dots {
-        display: none !important;
-    }
-}
-
-@media screen and (max-width: 767px) {
     .fourth-sec .slick-arrow {
         width: 60px;
         position: absolute;
@@ -583,6 +505,34 @@ Fourth section
     }
     .fourth-sec .slick-dots {
         bottom: -61px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .fourth-sec .fs-12 {
+        font-size: 12px;
+    }
+    .fourth-sec .small-img-user {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .fourth-sec .slick-arrow {
+        position: absolute;
+        width: 61px;
+        top: 50%;
+        cursor: pointer;
+    }
+    .fourth-sec svg.slick-arrow.prevArrow {
+        left: -50px;
+    }
+    .fourth-sec svg.slick-arrow.nextArrow {
+        right: -50px;
+    }
+    .fourth-sec .slick-dots {
+        display: none !important;
     }
 }
 
@@ -654,6 +604,10 @@ sixth section
     .sixth-sec .fs-14 {
         font-size: 12px;
     }
+}
+
+.sixth-sec-img-content .fs-12 {
+    font-size: 12px;
 }
 
 
