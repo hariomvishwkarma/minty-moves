@@ -127,6 +127,7 @@ hero section
 
 .hero-section-img-content h6 {
     -webkit-line-clamp: 2;
+    height: 40px;
 }
 
 .hero-sec-box-shad {
@@ -146,6 +147,10 @@ hero section
     }
     .hero-section-h6 {
         font-size: 12px;
+        height: 28px;
+    }
+    .hero-section-img-content h6 {
+        height: 28px;
     }
     .hero-section .fs-14 {
         font-size: 12px;
@@ -189,6 +194,7 @@ Second section
 
 .second-section-img-content h6 {
     -webkit-line-clamp: 2;
+    height: 46px;
 }
 
 .second-sec-img {
@@ -460,6 +466,7 @@ Fourth section
 
 .fourth-sec h6 {
     font-size: 20px;
+    height: 72px;
 }
 
 .fourth-sec .top-head ul li {
@@ -505,6 +512,9 @@ Fourth section
     }
     .fourth-sec .slick-dots {
         bottom: -61px;
+    }
+    .fourth-sec h6 {
+        height: 46px;
     }
 }
 
@@ -564,6 +574,12 @@ fifth section
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .fifth-section-img-content h6 {
+        height: 32px;
+    }
+}
+
 
 /* -----------------------------------
 sixth section 
@@ -591,6 +607,7 @@ sixth section
 
 .sixth-sec h4 {
     -webkit-line-clamp: 2;
+    height: 52px;
 }
 
 .sixth-section-img-content h6 {
@@ -766,6 +783,7 @@ ninth-section
 
 .ninth-section-img-content h6 {
     -webkit-line-clamp: 2;
+    height: 40px;
 }
 
 .ninth-sec .fs-14 {
@@ -779,6 +797,7 @@ ninth-section
 @media screen and (min-width:1200px) {
     .ninth-section-img-content h6 {
         font-size: 20px;
+        height: 46px;
     }
     .ninth-sec .small-img-john {
         width: 25px;
@@ -789,9 +808,16 @@ ninth-section
     }
 }
 
+@media screen and (max-width:991px) {
+    .ninth-section-img-content h6 {
+        font-size: 13px;
+        height: 31px;
+    }
+}
+
 @media screen and (max-width:596px) {
     .ninth-section-img-content h6 {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
@@ -816,6 +842,7 @@ tenth-section
 
 .tenth-sect-img-content .text-ellipsis {
     -webkit-line-clamp: 2;
+    height: 38px;
 }
 
 .tenth-sec button {
@@ -835,5 +862,8 @@ tenth-section
         background-color: rgb(214, 212, 212);
         margin: 0 auto;
         width: 50%;
+    }
+    .tenth-sect-img-content .text-ellipsis {
+        height: 28px;
     }
 }
